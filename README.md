@@ -8,6 +8,7 @@ Backend: Node.js | Express.js
 
 ## Fitur
 -> Teks To Binary Code
+
 -> Binary Code To Teks
 
 ## How To Start?
@@ -23,4 +24,5 @@ go to : http://localhost:3000
 ## Preview
 ![Tampilan Awal](https://i.ibb.co/WjN5W9T/Screenshot-50.png)
 ![Fitur satu](https://i.ibb.co/997LJmtk/Screenshot-51.png)
-![Fitur dua](https://i.ibb.co/vx79NJWn/Screenshot-52.png)
+![Tampilan Awal](https://i.ibb.co/vx79NJWn/Screenshot-52.png)
+
