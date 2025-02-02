@@ -17,4 +17,4 @@ npm start
 go to : http://localhost:3000
 
 ## Preview
-https://i.ibb.co/WjN5W9T/Screenshot-50.png
+![Tampilan Awal](https://i.ibb.co/WjN5W9T/Screenshot-50.png)
