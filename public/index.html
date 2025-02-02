@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biner Konverter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-top">
+        <path fill="#f8b5d6" d="M0,64L1440,160L1440,0L0,0Z"></path>
+    </svg>
+
+    <div class="container text-center">
+        <h2>Konversi Biner</h2>
+
+        <div class="conversion-options">
+            <button class="option-btn" id="textToBinaryBtn">Teks ke Biner</button>
+            <button class="option-btn" id="binaryToTextBtn">Biner ke Teks</button>
+            <button class="option-btn" id="aboutBtn">Tentang</button>
+        </div>
+>
+        <div class="form-converter" id="textToBinaryForm" style="display:none;">
+            <h3>Konversi Teks ke Biner</h3>
+            <textarea id="textInput" placeholder="Masukkan teks..."></textarea>
+            <button id="convertToBinaryButton">Konversi ke Biner</button>
+            <h3>Hasil Biner:</h3>
+            <textarea id="binaryOutput" readonly></textarea>
+            <button class="back-to-home" id="backToHomeBtn1">Kembali ke Beranda</button>
+        </div>
+
+        <div class="form-converter" id="binaryToTextForm" style="display:none;">
+            <h3>Konversi Biner ke Teks</h3>
+            <textarea id="binaryInput" placeholder="Masukkan biner..."></textarea>
+            <button id="convertToTextButton">Konversi ke Teks</button>
+            <h3>Hasil Teks:</h3>
+            <textarea id="textOutput" readonly></textarea>
+            <button class="back-to-home" id="backToHomeBtn2">Kembali ke Beranda</button>
+        </div>
+
+        <div class="about-page" id="aboutPage" style="display:none;">
+            <h3>About This</h3>
+            <div class="about-text">
+                <p>Website ini dibuat untuk membantu mengkonversi teks ke format biner dan sebaliknya dengan cara yang efisien</p>
+                <p>Semua Orang dapat memilih untuk mengkonversi teks ke biner, atau sebaliknya, hanya dengan menyalin dan menempelkan teks atau biner yang ingin dikonversi.</p>
+                <p>Jika mengalami masalah ataupun menemukan bug, Silahkan hubungi saya melalui instagram : <a href="https://www.instagram.com/chrvert_/" target="_blank">@chrvert_</a></p>
+            </div>
+            <button class="back-to-home" id="backToHomeBtn3">Kembali ke Beranda</button>
+        </div>
+
+    </div>
+
+    <div class="creator-bar">
+        <p>Created by: <a href="https://www.instagram.com/chrvert_/" target="_blank">Instagram: @chrvert_</a> | <a href="https://github.com/0xBangors" target="_blank">GitHub: github.com/0xBangors</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
