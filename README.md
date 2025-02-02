@@ -1,6 +1,10 @@
 ## Binary Website
 Created By @chrvert_ < On Insta
 
+## Bahasa
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js | Express.js
+
 ## How To Start?
 
 ```
