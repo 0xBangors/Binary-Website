@@ -14,7 +14,7 @@ Backend: Node.js | Express.js
 ## How To Start?
 
 ```
-git clone https://github.com/0xBangors/biner-web.git](https://github.com/0xBangors/Binary-Website
+git clone https://github.com/0xBangors/Binary-Website
 cd Binary-Website
 npm install
 npm start
